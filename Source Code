@@ -1,0 +1,539 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Cloud Login</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="css/coin-slider.css" />
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/cufon-titillium-250.js"></script>
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/coin-slider.min.js"></script>
+</head>
+<body>
+<div class="main">
+<div class="header">
+<div class="header_resize">
+<div class="logo">
+<h1><a href="index.html"><span>Flexible and Fine-Grained Attribute- Based</span></a></h1>
+<h1><a href="index.html"><span>Data Storage in Cloud
+Computing</span></a></h1>
+</div>
+<div class="menu_nav">
+<ul>
+<li><a href="index.html"><span>Home </span></a></li>
+<li><a href="DU_Login.jsp"><span>Data User </span></a></li>
+<li><a href="DO_Login.jsp"><span>Data Owner </span></a></li>
+<li><a href="GM_Login.jsp"><span>Group Manager </span></a></li>
+<li><a href="TA_Login.jsp"><span>Trusted Authority</span></a></li>
+<li class="active"><a href="CS_Login.jsp"><span>Cloud Server
+</span></a></li>
+</ul>
+</div>
+<div class="clr"></div>
+<div class="slider">
+<div id="coin-slider"><a href="#"><img src="images/slide1.jpg" width="935" height="307" alt="" /></a> <a href="#"><img src="images/slide2.jpg" width="935" height="307" alt="" /></a> <a href="#"><img src="images/slide3.jpg" width="935" height="307" alt="" /></a></div>
+<div class="clr"></div>
+</div>
+<div class="clr"></div>
+</div>
+</div>
+<div class="content">
+<div class="content_resize">
+<div class="mainbar">
+<div class="article">
+<h2><span>Cloud Login </span></h2>
+<p class="infopost">&nbsp;</p>
+<div class="clr"></div>
+<div class="article">
+<form action="CS_Authentication.jsp" method="post" id="leavereply">
+<label for="name"><br />
+Name
+(required)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </label>
+<input name="userid" type="text" class="box" id="name" value="" />
+<label for="email"><br />
+<br />
+Password (required)&nbsp; &nbsp; </label>
+<input type="password" id="pass" name="pass" class="box" />
+<p>&nbsp;</p>
+<p>
+<input name="imageField" type="submit" class="LOGIN" id="imageField" value="Login" />
+<input type="reset" name="imageField" id="imageField" class="RESET" />
+</p>
+<p>&nbsp; </p>
+</form>
+<p aligns="justify">&nbsp;</p>
+</div>
+<div class="clr"></div>
+</div>
+</div>
+<div class="sidebar">
+<div class="searchform">
+<form id="formsearch" name="formsearch" method="post" action="#">
+<span>
+<input name="editbox_search" class="editbox_search" id="editbox_search" maxlength="80" value="Search:" type="text" />
+</span>
+<input name="button_search" src="images/search.gif" class="button_search"
+type="image" />
+</form>
+</div>
+<div class="clr"></div>
+<div class="g1">
+<div class="g2">
+<div class="gadget">
+<h2 class="star">Menu</h2>
+<div class="clr"></div>
+<ul class="sb_menu">
+<li><a href="DU_Login.jsp">Data User</a></li>
+<li><a href="DO_Login.jsp">Data Owner </a></li>
+<li><a href="CS_Login.jsp">Cloud Server</a></li>
+<li><a href="GM_Login.jsp">Group Manager</a></li>
+<li><a href="TA_Login.jsp">Trusted Authority</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="clr"></div>
+</div>
+</div>
+<div class="fbg">
+<div class="fbg_resize">
+<div class="col c1">
+<h2>collusion attack</h2>
+<a href="#"><img src="images/gal1.jpg" width="75" height="75" alt="" class="gal" /></a> <a href="#"><img src="images/gal2.jpg" width="75" height="75" alt="" class="gal" /></a> <a href="#"><img src="images/gal3.jpg" width="75" height="75" alt="" class="gal" /></a> <a href="#"><img src="images/gal4.jpg" width="75" height="75" alt="" class="gal" /></a> <a href="#"><img
+src="images/gal5.jpg" width="75" height="75" alt="" class="gal" /></a> <a
+href="#"><img src="images/gal6.jpg" width="75" height="75" alt="" class="gal"
+/></a> </div>
+<div class="col c2">
+<h2>attribute-based encryption</h2>
+<p aligns="justify">With the increasing of sensitive data outsourced to cloud, cloud
+storage services are facing many challenges including data security and data access
+control. To solve those problems, attribute-based encryption (ABE) schemes have
+been applied to cloud storage services</p>
+<ul class="fbg_ul">
+<li></li>
+<li></li>
+<li></li>
+</ul> </div>
+<div class="col c3">
+<h2>outsource decryption</h2>
+<p aligns="justify">The operation associated with the dummy attribute is
+performed locally while the operation associated with the sub-tree is outsourced to
+ECSP. <br />
+To securely outsource decryption operation with<br />
+heavy bilinear computation, user’s private key is blinded</p>
+</div>
+<div class="clr"></div>
+</div>
+</div>
+<div class="footer">
+<div class="footer_resize">
+<p class="lf">&nbsp;</p>
+<p class="rf">&nbsp;</p>
+<div style="clear:both;"></div>
+</div>
+</div>
+</div>
+<div align=center></div>
+</body>
+</html>
+Source Code for Cloud Server ViewFiles:
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
+<%@page import ="java.util.*"%>
+<%@ include file="connect.jsp" %>
+<%@page import ="java.util.*, java. security. Key,java.util.Random,javax.crypto.Cipher,javax.crypto.spec. SecretKeySpec,org.bouncycastle.util.encoders.Base64"%>
+<%@ page
+import="java.sql. *, java. util.Random,java.io.PrintStream,java.io.FileOutputStream,java. io. FileInputStream, java. security.DigestInputStream,java.math.BigInteger,java.security. MessageDigest,java.io.BufferedInputStream" %>
+<%@ page import ="java. security. Key, java. security.KeyPair,java.security.KeyPairGenerator,javax.crypto. Cipher"%>
+<%@page import ="java.util.*, java.text. SimpleDateFormat, java.util.Date,java.io.FileInputStream,java.io. FileOutputStream,java.io.PrintStream"%>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Cloud </title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="css/coin-slider.css" />
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/cufon-titillium-250.js"></script>
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/coin-slider.min.js"></script>
+<style type="text/css">
+<!--
+.style21 {font-size: 14px}
+.style23 {color: #666666; font-weight: bold;}
+.style24 {
+font-size: 16px;
+font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<div class="main">
+<div class="header">
+<div class="header_resize">
+<div class="logo">
+<h1><a href="index.html"><span>Flexible and Fine-Grained Attribute- Based</span></a></h1>
+<h1><a href="index.html"><span>Data Storage in Cloud
+Computing</span></a></h1>
+</div>
+<div class="menu_nav">
+<ul>
+<li class="active"><a href="CS_Main.jsp"><span>Home </span></a></li>
+<li><a href="CS_Login.jsp"><span>Logout</span></a></li>
+<li><a href="#"></a></li>
+<li><a href="#"></a></li>
+<li><a href="#"></a></li>
+</ul>
+</div>
+<div class="clr"></div>
+<div class="slider">
+<div id="coin-slider"><a href="#"><img src="images/slide1.jpg" width="935" height="307" alt="" /></a> <a href="#"><img src="images/slide2.jpg" width="935" height="307" alt="" /></a> <a href="#"><img src="images/slide3.jpg" width="935" height="307" alt="" /></a></div>
+<div class="clr"></div>
+</div>
+<div class="clr"></div>
+</div>
+</div>
+<div class="content">
+<div class="content_resize">
+<div class="mainbar">
+<div class="article">
+<h2><span>All Files</span> &amp; Videos </h2>
+<p class="infopost">&nbsp;</p>
+<div class="clr"></div>
+<div class="article">
+<p class="style24">Files </p>
+<p class="style24">&nbsp;</p>
+<table width="600" border="2" cellpadding="0" cellspacing="0" style="border- collapse:collapse" align="center">
+<tr>
+<td width="51" height="30"><div align="center" class="style21"><span
+class="style23"> ID </span></div></td>
+<td width="130"><div align="center" class="style21"><span
+class="style23">File Name </span></div></td>
+<td width="120"><div align="center" class="style21"><span
+class="style23">Data Owner </span></div></td>
+<td width="120"><div align="center" class="style21"><span
+class="style23">Secret Key </span></div></td>
+<td width="140"><div align="center" class="style21"><span
+class="style23">Date &amp; Time </span></div></td>
+<%
+String s1="",s2="",s3="",s4="",s5="",s6="",s7="",s8,s9="",s10,s11,s12,s13;
+int i=0, j=0, k=0;
+try
+{
+String query1="Select *from cloudserver ";
+Statement st1=connection.createStatement();
+ResultSet rs1=st1.executeQuery(query1);
+while (rs1.next())
+{
+i=rs1.getInt(1);
+s2=rs1.getString(2);
+s3=rs1.getString(7);
+s8=rs1.getString(5);
+s6=rs1.getString(8);
+String keys = "ef50a0ef2c3e3a5f";
+byte [] keyValue = keys.getBytes();
+Key key = new SecretKeySpec (keyValue, "AES");
+Cipher c = Cipher.getInstance("AES");
+c.init(Cipher.DECRYPT_MODE, key);
+String dt = new String (Base64.decode(s3. getBytes ()));
+%>
+</tr>
+<tr>
+<td height="28"><div align="center"><%=i%></div></td>
+<td><div align="center"><a
+href="CS_filedetails.jsp?fname=<%=s2%>"><%=s2%></div></td>
+<td><div align="center"><%=s6%></div></td>
+<td><div align="center"><%=s8%></div></td>
+<td><div align="center"><%=dt%></div></td>
+<%
+}
+%>
+</tr>
+</table>
+<p aligns="justify">&nbsp;</p>
+<p aligns="justify">&nbsp;</p>
+<p class="style24">Videos </p>
+<p class="style24">&nbsp;</p>
+<table width="600" border="2" cellpadding="0" cellspacing="0"
+style="border-collapse:collapse" align="center">
+<tr>
+<td width="51" height="30"><div align="center" class="style21"><span
+class="style23"> ID </span></div></td>
+<td width="130"><div align="center" class="style21"><span
+class="style23">File Name </span></div></td>
+<td width="120"><div align="center" class="style21"><span
+class="style23">Data Owner </span></div></td>
+<td width="120"><div align="center" class="style21"><span
+class="style23">Secret Key </span></div></td>
+<td width="140"><div align="center" class="style21"><span
+class="style23">Date &amp; Time </span></div></td><%
+<String query="Select *from cloud_videos ";
+Statement st=connection.createStatement();
+ResultSet rs=st.executeQuery(query);
+while (rs.next() )
+{
+i=rs.getInt(1);
+s4=rs.getString(2);
+s5=rs.getString(4);
+s7=rs.getString(6);
+s9=rs.getString(8);
+String keys = "ef50a0ef2c3e3a5f";
+byte [] keyValue = keys.getBytes();
+Key key = new SecretKeySpec(keyValue, "AES" Cipher c = Cipher.getInstance("AES");
+c.init(Cipher.DECRYPT_MODE, key);
+String s41 = new String (Base64.decode(s4. getBytes ()));
+String s51 = new
+String (Base64.decode(s5. getBytes ()));
+String s71 = new
+String (Base64.decode(s7. getBytes ()));
+%>
+</tr>
+<tr>
+<td height="28"><div align="center"><%=i%></div></td>
+<td><div align="center"><a
+href="CS_playvideo.jsp?fname=<%=s41%>"><%=s41%></a></div></td>
+<td><div align="center"><%=s51%></div></td>
+<td><div align="center"><%=s9%></div></td>
+<td><div align="center"><%=s71%></div></td>
+<%
+}
+connection.close();
+}
+catch (Exception e)
+{
+out.println(e.getMessage());
+}
+%>
+</tr>
+</table>
+<p>&nbsp;</p>
+<p align="right"><a href="CS_Main.jsp">Back</a></p>
+</div><div class="clr"></div>
+</div>
+</div>
+<div class="sidebar">
+<div class="searchform">
+<form id="formsearch" name="formsearch" method="post" action="#">
+<span>
+<input name="editbox_search" class="editbox_search" id="editbox_search" maxlength="80" value="Search:" type="text" />
+</span>
+<input name="button_search" src="images/search.gif" class="button_search"
+type="image" />
+</form>
+</div>
+<div class="clr"></div>
+<div class="g1">
+<div class="g2">
+<div class="gadget">
+<h2 class="star">Menu</h2>
+<div class="clr"></div>
+<ul class="sb_menu">
+<li><a href="CS_Main.jsp">Home </a></li>
+<li><a href="CS_ViewAttacker.jsp">Attackers</a></li>
+<li><a href="CS_ViewTransaction.jsp">Transactions</a></li>
+<li><a href="CS_ViewGC.jsp">Group Certificates</a></li>
+<li><a href="CS_DUAuthorize.jsp">User Authorization </a></li>
+<li><a href="CS_ViewResults.jsp">Group Users Chart </a></li>
+<li><a href="CS_DecryptPer.jsp">Decrypt Permission </a></li>
+<li><a href="CS_Login.jsp">Logout</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="clr"></div>
+</div>
+</div>
+<div class="fbg">
+<div class="fbg_resize">
+<div class="col c1">
+<h2>collusion attack</h2>
+<a href="#"><img src="images/gal1.jpg" width="75" height="75" alt="" class="gal" /></a> <a href="#"><img src="images/gal2.jpg" width="75" height="75" alt="" class="gal" /></a> <a href="#"><img src="images/gal3.jpg" width="75" height="75" alt="" class="gal" /></a> <a href="#"><img src="images/gal4.jpg" width="75" height="75" alt="" class="gal" /></a> <a href="#"><img
+src="images/gal5.jpg" width="75" height="75" alt="" class="gal" /></a> <a
+href="#"><img src="images/gal6.jpg" width="75" height="75" alt="" class="gal"
+/></a> </div>
+<div class="col c2">
+<h2>attribute-based encryption</h2>
+<p aligns="justify">With the increasing of sensitive data outsourced to cloud, cloud
+storage services are facing many challenges including data security and data access
+control. To solve those problems, attribute-based encryption (ABE) schemes have been
+applied to cloud storage services</p>
+<ul class="fbg_ul">
+<li></li>
+<li></li>
+<li></li>
+</ul>
+</div>
+<div class="col c3">
+<h2>outsource decryption</h2>
+<p aligns="justify">The operation associated with the dummy attribute is
+performed
+locally while the operation associated with the sub-tree is outsourced to ECSP. <br />
+To securely outsource decryption operation with<br />
+heavy bilinear computation, user’s private key is blinded</p>
+</div>
+<div class="clr"></div>
+</div>
+</div>
+<div class="footer">
+<div class="footer_resize">
+<p class="lf">&nbsp;</p>
+<p class="rf">&nbsp;</p>
+<div style="clear:both;"></div>
+</div>
+</div>
+</div>
+<div align=center></div>
+</body>
+</html>
+Source Code for Data Owner Login:
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Data Owner Login</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="css/coin-slider.css" />
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/cufon-titillium-250.js"></script>
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/coin-slider.min.js"></script>
+</head>
+<body>
+<div class="main">
+<div class="header">
+<div class="header_resize">
+<div class="logo">
+<h1><a href="index.html"><span>Flexible and Fine-Grained Attribute- Based</span></a></h1>
+<h1><a href="index.html"><span>Data Storage in Cloud
+Computing</span></a></h1>
+</div>
+<div class="menu_nav">
+<ul>
+<li><a href="index.html"><span>Home </span></a></li>
+<li><a href="DU_Login.jsp"><span>Data User </span></a></li>
+<li class="active"><a href="DO_Login.jsp"><span>Data Owner
+</span></a></li>
+<li><a href="GM_Login.jsp"><span>Group Manager </span></a></li>
+<li><a href="TA_Login.jsp"><span>Trusted Authority</span></a></li>
+<li><a href="CS_Login.jsp"><span>Cloud Server </span></a></li>
+</ul>
+</div>
+<div class="clr"></div>
+<div class="slider">
+<div id="coin-slider"><a href="#"><img src="images/slide1.jpg" width="935" height="307" alt="" /></a> <a href="#"><img src="images/slide2.jpg" width="935" height="307" alt="" /></a> <a href="#"><img src="images/slide3.jpg" width="935" height="307" alt="" /></a></div>
+<div class="clr"></div>
+</div>
+<div class="clr"></div>
+</div>
+</div>
+<div class="content">
+<div class="content_resize">
+<div class="mainbar">
+<div class="article">
+<h2><span>Data Owner Login </span></h2>
+<p class="infopost">&nbsp;</p>
+<div class="clr"></div>
+<div class="article">
+<form action="DO_Authentication.jsp" method="post" id="leavereply">
+<label for="name"><br />
+Name
+(required)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </label>
+<input name="userid" type="text" class="box" id="name" value="" />
+<label for="email"><br />
+<br />
+Password (required)&nbsp; &nbsp; </label>
+<input type="password" id="pass" name="pass" class="box" />
+<p>&nbsp;</p>
+<p>
+<input name="imageField" type="submit" class="LOGIN" id="imageField" value="Login" />
+<input type="reset" name="imageField" id="imageField" class="RESET" />
+</p>
+<p>New Data Owner? click here to <a href="DO_Register.jsp">
+Register</a></p>
+</form>
+<p aligns="justify">&nbsp;</p>
+</div>
+<div class="clr"></div>
+</div>
+</div>
+<div class="sidebar">
+<div class="searchform">
+<form id="formsearch" name="formsearch" method="post" action="#">
+<span>
+<input name="editbox_search" class="editbox_search" id="editbox_search" maxlength="80" value="Search:" type="text" />
+</span>
+<input name="button_search" src="images/search.gif" class="button_search"
+type="image" />
+</form>
+</div>
+<div class="clr"></div>
+<div class="g1">
+<div class="g2">
+<div class="gadget">
+<h2 class="star">Menu</h2>
+<div class="clr"></div>
+<ul class="sb_menu">
+<li><a href="DU_Login.jsp">Data User</a></li>
+<li><a href="DO_Login.jsp">Data Owner </a></li>
+<li><a href="CS_Login.jsp">Cloud Server</a></li>
+<li><a href="GM_Login.jsp">Group Manager</a></li>
+<li><a href="TA_Login.jsp">Trusted Authority</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="clr"></div>
+</div>
+</div>
+<div class="fbg">
+<div class="fbg_resize">
+<div class="col c1">
+<h2>collusion attack</h2>
+<a href="#"><img src="images/gal1.jpg" width="75" height="75" alt="" class="gal" /></a> <a href="#"><img src="images/gal2.jpg" width="75" height="75" alt="" class="gal" /></a> <a href="#"><img src="images/gal3.jpg" width="75" height="75" alt="" class="gal" /></a> <a href="#"><img src="images/gal4.jpg" width="75" height="75" alt="" class="gal" /></a> <a href="#"><img
+src="images/gal5.jpg" width="75" height="75" alt="" class="gal" /></a> <a
+href="#"><img src="images/gal6.jpg" width="75" height="75" alt="" class="gal"
+/></a> </div>
+<div class="col c2">
+<h2>attribute-based encryption</h2>
+<p align="justify">With the increasing of sensitive data outsourced to cloud, cloud
+storage services are facing many challenges including data security and data access
+control. To solve those problems, attribute-based encryption (ABE) schemes have been
+applied to cloud storage services</p>
+<ul class="fbg_ul">
+<li></li>
+<li></li>
+<li></li>
+</ul>
+</div>
+<div class="col c3">
+<h2>outsource decryption</h2>
+<p aligns="justify">The operation associated with the dummy attribute is
+performed locally while the operation associated with the sub-tree is outsourced to
+ECSP. <br />
+To securely outsource decryption operation with<br />
+heavy bilinear computation, user’s private key is blinded</p>
+</div>
+<div class="clr"></div>
+</div>
+</div>
+<div class="footer">
+<div class="footer_resize">
+<p class="lf">&nbsp;</p>
+<p class="rf">&nbsp;</p>
+<div style="clear:both;"></div>
+</div>
+</div>
+</div>
+<div align=center></div>
+</body>
+</html>
